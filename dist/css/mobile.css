@@ -1,0 +1,165 @@
+.btn {
+  width: 15rem;
+  height: 3.5rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 5rem;
+}
+.btn:hover {
+  transform: scale(1.1);
+  color: #333;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 0 1.5rem;
+    padding-left: 2.1rem;
+    width: 97.5vw;
+  }
+  #main-header {
+    background: url(../images/bg-header-mobile.png) no-repeat top center/cover;
+  }
+  #main-header .container img {
+    width: 7.5rem;
+  }
+  #main-header .container h1 {
+    font-size: 2.2rem;
+  }
+  #main-header .container h2 {
+    font-size: 1.25rem;
+    line-height: 1.7;
+  }
+  #main-header .container .buttons-div {
+    margin-top: 3rem;
+  }
+  #main-header .container .buttons-div .btn {
+    box-shadow: 0.05rem 0.05rem 0.5rem black;
+  }
+  #main-header .container .buttons-div .btn-1 {
+    background-color: hsl(171, 66%, 44%);
+    width: 100%;
+    margin-right: none;
+    margin-bottom: 2rem;
+  }
+  #main-header .container .buttons-div .btn-2 {
+    background-color: hsl(233, 100%, 69%);
+    width: 100%;
+  }
+  main section .titles {
+    text-align: center;
+  }
+  main section .titles h4 {
+    margin-bottom: 3rem;
+  }
+  main .section-a .display-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  main .section-a .display-content .sec-a-div-1 {
+    width: 100%;
+  }
+  main .section-a .display-content .sec-a-div-1 img {
+    margin: 0;
+  }
+  main .section-a .display-content .sec-a-div-2 {
+    width: 100%;
+  }
+  main .section-b .image img {
+    width: 100%;
+  }
+  main .section-c {
+    margin-top: -25rem;
+  }
+  main .section-c .sec-c-div-2 {
+    margin-top: 5rem;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  main .section-c .sec-c-div-2 h4 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+  main .section-c .sec-c-div-2 p {
+    margin-top: 1rem;
+  }
+  main .section-c .sec-c-div-2 .sec-c-cont-2 img, main .section-c .sec-c-div-2 .sec-c-cont-3 img {
+    margin-top: 3rem;
+  }
+  main .section-d {
+    flex-direction: column;
+    margin-top: 10rem;
+    align-items: center;
+    gap: 3rem;
+  }
+  main .section-d img {
+    margin: 0;
+  }
+  main .section-d img:first-child {
+    width: 30%;
+    height: 2rem;
+  }
+  main .section-d img:nth-child(2) {
+    width: 27%;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+  }
+  main .section-d img:nth-child(3) {
+    width: 30%;
+    height: 1.8rem;
+  }
+  main .section-d img:nth-child(4) {
+    width: 27%;
+    height: 2.2rem;
+  }
+  main .section-d img:last-child {
+    width: 25%;
+    height: 1.4rem;
+  }
+  main .clipboard .container h3 {
+    font-size: 2.2rem;
+  }
+  main .clipboard .container h4 {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  main .clipboard .container .buttons-div {
+    margin-top: 3rem;
+  }
+  main .clipboard .container .buttons-div .btn {
+    box-shadow: 0.05rem 0.05rem 0.5rem black;
+  }
+  main .clipboard .container .buttons-div .btn-1 {
+    background-color: hsl(171, 66%, 44%);
+    width: 100%;
+    margin-right: none;
+    margin-bottom: 2rem;
+  }
+  main .clipboard .container .buttons-div .btn-2 {
+    background-color: hsl(233, 100%, 69%);
+    width: 100%;
+  }
+  .footer {
+    flex-direction: column;
+    height: 35rem;
+    padding: 3.5rem;
+    text-align: center;
+  }
+  .footer-div-2 {
+    margin: 3.5rem 0;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer-div-2 .links ul {
+    gap: 2rem;
+  }
+}
